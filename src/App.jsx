@@ -2,7 +2,7 @@ import Layout from "../src/components/ui/Layout";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Products from "./components/Sections/Products";
-import Property from "./components/Sections/Property";
+import Explore from "./components/Sections/Explore";
 import Project from "./components/Sections/Project";
 import Overview from "./components/Sections/Overview";
 import Future from "./components/Sections/Future";
@@ -17,6 +17,7 @@ function App() {
       <Layout>
         <Hero />
         <Products />
+        <Explore />
       </Layout>
       {/* <Hero />
       <Products />
