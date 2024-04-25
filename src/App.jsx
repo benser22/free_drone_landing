@@ -1,23 +1,26 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import OneSection from "./components/Sections/OneSection";
-import AboutSection from "./components/Sections/AboutSection";
-import OurProjects from "./components/Sections/OurProjects";
-import Testimonials from "./components/Sections/Testimonials";
-import LastSection from "./components/Sections/LastSection";
+import Products from "./components/Sections/Products";
+import Property from "./components/Sections/Property";
+import Project from "./components/Sections/Project";
+import Overview from "./components/Sections/Overview";
+import Future from "./components/Sections/Future";
+import Contact from "./components/Sections/Contact";
+
 import Footer from "./Footer/Footer";
 
 function App() {
   return (
     <main>
       <Navbar />
-      <Hero />
-      <OneSection />
-      <AboutSection />
-      <Testimonials />
-      <OurProjects />
-      <LastSection />
-      <Footer />
+      {/* <Hero />
+      <Products />
+      <Property />
+      <Project />
+      <Overview />
+      <Future />
+      <Contact />
+      <Footer /> */}
     </main>
   );
 }
