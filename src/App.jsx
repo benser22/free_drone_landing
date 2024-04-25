@@ -16,6 +16,7 @@ function App() {
       <Navbar />
       <Layout>
         <Hero />
+        <Products />
       </Layout>
       {/* <Hero />
       <Products />

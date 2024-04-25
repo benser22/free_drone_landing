@@ -14,9 +14,9 @@ function Hero() {
           className="sm:h-[10vw] sm:w-[10vw] rounded-full bg-black flex items-center justify-center font-[500] "
           style={{ boxShadow: "0px 0px 32px -10px rgba(0,0,0,0.75)" }}
         >
-          <p className="p-4 py-[1.3rem] text-xs sm:text-xl md:text-2xl lg:text-4xl text-center text-white">
+          <h3 className="p-4 py-[1.3rem] text-xs sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-center text-white">
             {data["section-hero"].stamp}
-          </p>
+          </h3>
         </div>
         <img
           src={data["section-hero"].bg.url}

@@ -31,7 +31,7 @@ const Navbar = () => {
               className=" cursor-pointer"
             >
               <p
-                className="text-md  hover:text-gray-200 sm:text-[12px] lg:text-[16px] w-max"
+                className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max"
                 key={item.id}
               >
                 {item.text}

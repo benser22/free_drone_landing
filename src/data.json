@@ -62,7 +62,48 @@
       "alt": "bg hero image"
     }
   },
-  "section-one": {},
+  "section-products": [
+    {
+      "id": 1,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714075602/drone_landing/products/card1.png",
+      "alt": "card1 image",
+      "epigraph": "DJI Motion Controller [1]",
+      "title": "Get a Feel for Flying",
+      "paragraph": "With the DJI Motion Controller, intuitive flight is in your hands. [1] Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly.",
+      "line-p": "*Click to Learn More About the New DJI RC Motion 2",
+      "button": "Learn More"
+    },
+    {
+      "id": 2,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714071478/drone_landing/products/card2.png",
+      "alt": "card2 image",
+      "epigraph": "DJI Motion Controller [1]",
+      "title": "Get a Feel for Flying",
+      "paragraph": "With the DJI Motion Controller, intuitive flight is in your hands. [1] Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly.",
+      "line-p": "*Click to Learn More About the New DJI RC Motion 2",
+      "button": "Learn More"
+    },
+    {
+      "id": 3,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714071478/drone_landing/products/card3.png",
+      "alt": "card3 image",
+      "epigraph": "DJI Motion Controller [1]",
+      "title": "Get a Feel for Flying",
+      "paragraph": "With the DJI Motion Controller, intuitive flight is in your hands. [1] Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly.",
+      "line-p": "*Click to Learn More About the New DJI RC Motion 2",
+      "button": "Learn More"
+    },
+    {
+      "id": 4,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714072139/drone_landing/products/card4.png",
+      "alt": "card4 image",
+      "epigraph": "DJI Motion Controller [1]",
+      "title": "Get a Feel for Flying",
+      "paragraph": "With the DJI Motion Controller, intuitive flight is in your hands. [1] Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly.",
+      "line-p": "*Click to Learn More About the New DJI RC Motion 2",
+      "button": "Learn More"
+    }
+  ],
   "section-two": {},
   "section-three": {},
   "section-four": {},

@@ -24,16 +24,20 @@ h1 {
   font-family: "Inter", sans-serif;
 }
 
-h2 {
+p,
+h2,
+button {
   font-family: "Open Sans", sans-serif;
 }
 
-p,
 h3 {
   font-family: "DM Sans", sans-serif;
 }
 
-/* 
+.shadow-only-painted {
+  filter: drop-shadow(0 20px 12px rgba(0, 0, 0, 0.3));
+}
+
 button:hover {
   filter: brightness(1.1);
   transition: filter 0.3ms;
@@ -41,9 +45,11 @@ button:hover {
 
 button:active {
   filter: saturate(0.8);
+  color: darkslategrey;
   transition: filter 1s;
 }
 
+/* 
 .orange-button {
   background-color: #f46d21;
   color: white;
