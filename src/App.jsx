@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Products from "./components/Sections/Products";
 import Explore from "./components/Sections/Explore";
-import Project from "./components/Sections/Project";
 import Overview from "./components/Sections/Overview";
+import Project from "./components/Sections/Project";
 import Future from "./components/Sections/Future";
 import Contact from "./components/Sections/Contact";
 
@@ -18,12 +18,12 @@ function App() {
         <Hero />
         <Products />
         <Explore />
+        <Overview />
       </Layout>
       {/* <Hero />
       <Products />
       <Property />
       <Project />
-      <Overview />
       <Future />
       <Contact />
     <Footer /> */}

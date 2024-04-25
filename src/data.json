@@ -24,17 +24,17 @@
       },
       {
         "id": 4,
-        "text": "Project",
-        "href": "project",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/project.png",
-        "alt": "icon image project"
-      },
-      {
-        "id": 5,
         "text": "Overview",
         "href": "overview",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/overview.png",
         "alt": "icon image overview"
+      },
+      {
+        "id": 5,
+        "text": "Project",
+        "href": "project",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/project.png",
+        "alt": "icon image project"
       },
       {
         "id": 6,
@@ -123,7 +123,12 @@
       { "title": "H.265", "subtitle": "Video Transmission Coding" }
     ]
   },
-  "section-three": {},
+  "section-overview": {
+    "bg": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714082368/drone_landing/overview/bg.png",
+      "alt": "bg overview image"
+    }
+  },
   "section-four": {},
   "section-five": {},
   "section-six": {},
