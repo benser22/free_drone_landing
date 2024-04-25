@@ -1,3 +1,4 @@
+import Layout from "../src/components/ui/Layout";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Products from "./components/Sections/Products";
@@ -13,6 +14,9 @@ function App() {
   return (
     <main>
       <Navbar />
+      <Layout>
+        <Hero />
+      </Layout>
       {/* <Hero />
       <Products />
       <Property />
@@ -20,7 +24,7 @@ function App() {
       <Overview />
       <Future />
       <Contact />
-      <Footer /> */}
+    <Footer /> */}
     </main>
   );
 }

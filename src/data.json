@@ -12,7 +12,7 @@
         "id": 2,
         "text": "Products",
         "href": "products",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714060378/drone_landing/mobile-icons/products.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714063165/drone_landing/mobile-icons/products.png",
         "alt": "icon image products"
       },
       {
@@ -53,13 +53,21 @@
     ],
     "button": {}
   },
+  "section-hero": {
+    "title": "Document your surroundings from above",
+    "subtitle": "لوريم ايبسوم دولار سيت أميت, كونسيكتيتور أدايبا يسكينج أليايت, سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا. يوت انيم أد مينيم فينايم, كيواس نوستريد",
+    "stamp": "إشتري",
+    "bg": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714064507/drone_landing/backgrounds/bg-hero.png",
+      "alt": "bg hero image"
+    }
+  },
   "section-one": {},
   "section-two": {},
   "section-three": {},
   "section-four": {},
   "section-five": {},
   "section-six": {},
-  "section-seven": {},
   "section-footer": {
     "copy": "All Rights Reserved 2024",
     "design": "Designed by Robert Smith",
@@ -75,6 +83,9 @@
   "logo-black": {
     "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714058469/drone_landing/logo/od65ykasgbtc4ezmimpw.png",
     "alt": "logo image"
+  },
+  "contact": {
+    "email": "example@example.com"
   },
   "bolg": {
     "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713971967/new%20icons/goxgkznab54zmwyrthho.png",

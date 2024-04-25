@@ -15,6 +15,11 @@
   animation: fadeIn 0.2s ease-in-out;
 }
 
+/* body {
+  background-image: url("https://res.cloudinary.com/djzp2k8gd/image/upload/v1714069986/drone_landing/backgrounds/bg-app.png");
+  background-repeat: repeat;
+} */
+
 h1 {
   font-family: "Inter", sans-serif;
 }
