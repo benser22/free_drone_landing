@@ -27,7 +27,7 @@ function LastSection() {
 
   const handleButtonClick = () => {
     if (isValidEmail && email) {
-      window.location.href = `mailto:${email}`;
+      window.location.href = `mailto:${data.contact.email}`;
     } else {
       alert(emailError || data["section-contact"].error);
     }
