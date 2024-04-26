@@ -129,7 +129,49 @@
       "alt": "bg overview image"
     }
   },
-  "section-four": {},
+  "section-project": {
+    "title": "Be part of us",
+    "paragraph": "Discover our premium drone collection, tailored to enhance your aerial photography and videography. From beginner-friendly models to professional-grade quadcopters, find everything you need to capture breathtaking shots. Plus, discover a variety of drone components to customize and optimize performance.",
+    "products": [
+      {
+        "imageUrl": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714089377/drone_landing/project/ui3ztqn8ow73y7so6ux1.webp",
+        "alt": "Drone Product 1",
+        "title": "Beginner Drones",
+        "subtitle": "Easy to Fly",
+        "description": "Our beginner drones are tailored for new pilots eager to explore aerial photography. With user-friendly controls and built-in stability, these drones make capturing stunning footage a breeze, allowing beginners to dive into the world of aerial imaging with ease.",
+        "button": "READ MORE",
+        "button-back": "READ LESS"
+      },
+      {
+        "imageUrl": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714088685/drone_landing/project/2.webp",
+        "alt": "Drone Product 2",
+        "title": "Professional Quadcopters",
+        "subtitle": "Advanced Features",
+        "description": "Our professional quadcopters are equipped with cutting-edge technology and advanced features, delivering unparalleled performance and image quality. Take your aerial photography and videography to the next level with our top-of-the-line drones.",
+        "button": "READ MORE",
+        "button-back": "READ LESS"
+      },
+      {
+        "imageUrl": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714088685/drone_landing/project/3.webp",
+        "alt": "Drone Product 3",
+        "title": "Mini Drones",
+        "subtitle": "Compact and Agile",
+        "description": "Our mini drones are perfect for indoor flights or capturing dynamic shots in tight spaces. Despite their small size, these drones pack a punch with their agility and maneuverability, offering a unique perspective for your aerial imaging projects.",
+        "button": "READ MORE",
+        "button-back": "READ LESS"
+      },
+      {
+        "imageUrl": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714088685/drone_landing/project/4.webp",
+        "alt": "Drone Product 4",
+        "title": "Foldable Drones",
+        "subtitle": "Portable and Versatile",
+        "description": "Our foldable drones are designed for adventurers on the go. With their compact and foldable design, you can easily carry them anywhere and unleash their aerial capabilities whenever inspiration strikes. Explore new horizons with our versatile foldable drones.",
+        "button": "READ MORE",
+        "button-back": "READ LESS"
+      }
+    ]
+  },
+
   "section-five": {},
   "section-six": {},
   "section-footer": {
@@ -156,37 +198,5 @@
     "title": "Blog",
     "text": "Visit our blog!",
     "url": "https://www.blogger.com/about/?hl=es"
-  },
-  "project": {
-    "title": "Optimize Property Potential",
-    "paragraph": "Our projects empower real estate professionals to unlock the full potential of their properties. From strategic consultation to captivating design and targeted marketing, we provide the tools and expertise to maximize returns on every listing.",
-    "photos": [
-      {
-        "urls": [
-          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713988623/leads_landing/bg/aiccifyvubzqfppjvh5i.jpg",
-          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713991552/leads_landing/bg/l4fdeo8gdgf8c4xovb3d.jpg",
-          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713992659/leads_landing/bg/frewotam8fnuhq4yauft.jpg"
-        ],
-        "alt": "photo 1 image",
-        "title": "Strategic Consultation",
-        "subtitle": "Uncover Property Potential",
-        "description": "Our strategic consultation services involve in-depth analysis and planning to identify the unique selling points of each property, enabling you to make informed decisions and maximize its potential.",
-        "button": "READ MORE",
-        "button-back": "READ LESS"
-      },
-      {
-        "urls": [
-          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713988623/leads_landing/bg/yminyapju7oet6yyogkx.jpg",
-          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713988623/leads_landing/bg/xdnvbxqjxa2829tk8u41.jpg",
-          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713992404/leads_landing/bg/ndqvbupefn4fonadmvtd.jpg"
-        ],
-        "alt": "photo 2 image",
-        "title": "Captivating Design",
-        "subtitle": "Transforming Spaces",
-        "description": "Our captivating design services focus on creating visually stunning interiors and exteriors that enhance the appeal of your property, attracting more potential buyers and maximizing its value.",
-        "button": "READ MORE",
-        "button-back": "READ LESS"
-      }
-    ]
   }
 }

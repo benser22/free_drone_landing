@@ -39,7 +39,7 @@ function Products() {
   return (
     <section id="products">
       <div
-        className="px-4"
+        className="px-4 pb-16"
         style={{
           backgroundSize: "cover",
           width: "100%",

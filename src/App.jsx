@@ -19,11 +19,11 @@ function App() {
         <Products />
         <Explore />
         <Overview />
+        <Project />
       </Layout>
       {/* <Hero />
       <Products />
       <Property />
-      <Project />
       <Future />
       <Contact />
     <Footer /> */}

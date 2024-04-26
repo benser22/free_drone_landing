@@ -27,7 +27,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               key={index}
-              offset={-80}
+              offset={-75}
               className=" cursor-pointer"
             >
               <p
