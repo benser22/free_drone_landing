@@ -6,6 +6,7 @@ import Explore from "./components/Sections/Explore";
 import Overview from "./components/Sections/Overview";
 import Project from "./components/Sections/Project";
 import Future from "./components/Sections/Future";
+import LastSection from "./components/Sections/LastSection";
 import Contact from "./components/Sections/Contact";
 
 import Footer from "./Footer/Footer";
@@ -21,6 +22,7 @@ function App() {
         <Overview />
         <Project />
         <Future />
+        <LastSection />
       </Layout>
       {/* <Hero />
       <Products />

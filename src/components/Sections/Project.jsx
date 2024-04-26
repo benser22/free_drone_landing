@@ -38,14 +38,14 @@ function Project() {
           <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-6">
             {title}
           </h2>
-          <p className="px-10 text-lg lg:text-xl text-gray-custom text-center mx-auto">
+          <p className="px-10 text-lg lg:text-xl lg:mb-8 text-gray-custom text-center mx-auto">
             {paragraph}
           </p>
           <Slider {...settings} className="flex w-[95%] mx-auto">
             {products.map((product, index) => (
               <div key={index} className="container flex pb-8">
                 <div
-                  className="flex justify-center items-center"
+                  className="flex justify-center items-center -mb-12 sm:mb-0"
                   style={{ height: "20rem" }}
                 >
                   <img

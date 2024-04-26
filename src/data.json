@@ -45,6 +45,13 @@
       },
       {
         "id": 7,
+        "text": "Accessories",
+        "href": "accessories",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714103510/drone_landing/mobile-icons/accessories.png",
+        "alt": "icon image accessories"
+      },
+      {
+        "id": 8,
         "text": "Contact Us",
         "href": "contact",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/contac-us.png",
@@ -191,7 +198,21 @@
       { "title": "HorizonSteady", "subtitle": "EIS" }
     ]
   },
-  "section-six": {},
+  "section-last": {
+    "stamp": "إشتري",
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714102099/drone_landing/last/nazqdbycj20mc316rz9t.png",
+      "alt": "lastSection image"
+    },
+    "image2": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714102711/drone_landing/last/image2.png",
+      "alt": "lastSection image2"
+    },
+    "logo": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714102711/drone_landing/last/transparent-logo.png",
+      "alt": "logo image"
+    }
+  },
   "section-footer": {
     "copy": "All Rights Reserved 2024",
     "design": "Designed by Robert Smith",

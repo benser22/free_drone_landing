@@ -16,10 +16,10 @@ const Navbar = () => {
           <img
             src={data.logo.url}
             alt={data.logo.alt}
-            className="w-[48px] cursor-pointer"
+            className="w-[48px] cursor-pointer mr-2"
           ></img>
         </a>
-        <div className="hidden sm:flex items-center justify-between sm:space-x-6 md:space-x-12 ">
+        <div className="hidden sm:flex items-center justify-between space-x-6 sm:space-x-3 md:space-x-6">
           {data["section-header"].navbar.map((item, index) => (
             <Link
               to={item.href}
