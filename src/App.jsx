@@ -20,11 +20,11 @@ function App() {
         <Explore />
         <Overview />
         <Project />
+        <Future />
       </Layout>
       {/* <Hero />
       <Products />
       <Property />
-      <Future />
       <Contact />
     <Footer /> */}
     </main>

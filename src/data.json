@@ -31,7 +31,7 @@
       },
       {
         "id": 5,
-        "text": "Project",
+        "text": "Projects",
         "href": "project",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/project.png",
         "alt": "icon image project"
@@ -172,7 +172,25 @@
     ]
   },
 
-  "section-five": {},
+  "section-future": {
+    "title": "A Breakthrough in FPV Visuals",
+    "subtitle": "Equipped with a 1/1.7-inch CMOS sensor, DJI Avata supports 4K ultra-wide-angle recording with an f/2.8 aperture.",
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714090986/drone_landing/future/image.png",
+      "alt": "battery image"
+    },
+    "column": [
+      {
+        "title": "4K/60fps [6]",
+        "subtitle": "Video"
+      },
+      { "title": "RockSteady 2.0", "subtitle": "EIS" },
+      { "title": "D-Cinelike", "subtitle": "Color Mode" },
+      { "title": "1/1.7-inch", "subtitle": "Sensor" },
+      { "title": "155°", "subtitle": "Super-Wide FOV" },
+      { "title": "HorizonSteady", "subtitle": "EIS" }
+    ]
+  },
   "section-six": {},
   "section-footer": {
     "copy": "All Rights Reserved 2024",
