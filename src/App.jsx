@@ -24,11 +24,11 @@ function App() {
         <Future />
         <LastSection />
       </Layout>
+      <Footer />
       {/* <Hero />
       <Products />
       <Property />
-      <Contact />
-    <Footer /> */}
+    */}
     </main>
   );
 }

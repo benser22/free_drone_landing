@@ -14,6 +14,7 @@ export default {
       },
       screens: {
         break: "1280px",
+        break2: "1535px",
       },
     },
   },

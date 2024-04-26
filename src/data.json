@@ -5,57 +5,57 @@
         "id": 1,
         "text": "Home",
         "href": "home",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714060379/drone_landing/mobile-icons/home.png",
-        "alt": "icon image home"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114243/drone_landing/mobile-icons/home-icon.png",
+        "alt": "icon home"
       },
       {
         "id": 2,
         "text": "Products",
         "href": "products",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714063165/drone_landing/mobile-icons/products.png",
-        "alt": "icon image products"
+        "alt": "icon products"
       },
       {
         "id": 3,
         "text": "Explore",
         "href": "explore",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059956/drone_landing/mobile-icons/why-us.png",
-        "alt": "icon image why"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114244/drone_landing/mobile-icons/explore-icon.png",
+        "alt": "icon why"
       },
       {
         "id": 4,
         "text": "Overview",
         "href": "overview",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/overview.png",
-        "alt": "icon image overview"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059956/drone_landing/mobile-icons/why-us.png",
+        "alt": "icon overview"
       },
       {
         "id": 5,
         "text": "Projects",
         "href": "project",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/project.png",
-        "alt": "icon image project"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114846/drone_landing/mobile-icons/projects.png",
+        "alt": "icon project"
       },
       {
         "id": 6,
         "text": "Future",
         "href": "future",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/future.png",
-        "alt": "icon image future"
+        "alt": "icon future"
       },
       {
         "id": 7,
         "text": "Accessories",
         "href": "accessories",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714103510/drone_landing/mobile-icons/accessories.png",
-        "alt": "icon image accessories"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114243/drone_landing/mobile-icons/accesories-icon.png",
+        "alt": "icon accessories"
       },
       {
         "id": 8,
         "text": "Contact Us",
         "href": "contact",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/contac-us.png",
-        "alt": "icon image contact"
+        "alt": "icon contact"
       }
     ],
     "button": {}
@@ -178,7 +178,6 @@
       }
     ]
   },
-
   "section-future": {
     "title": "A Breakthrough in FPV Visuals",
     "subtitle": "Equipped with a 1/1.7-inch CMOS sensor, DJI Avata supports 4K ultra-wide-angle recording with an f/2.8 aperture.",
@@ -209,13 +208,22 @@
       "alt": "lastSection image2"
     },
     "logo": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714102711/drone_landing/last/transparent-logo.png",
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111480/drone_landing/last/logo-transparent.png",
       "alt": "logo image"
     }
   },
+  "section-contact": {
+    "text": "Get in touch! Enter your email below to reach out to us.",
+    "input_placeholder": "Enter your email",
+    "button": "Contact Us",
+    "error": "Please enter a valid email address."
+  },
   "section-footer": {
+    "trademark": "FREE DRONE",
+    "slogan": "Unlock the Skies",
     "copy": "All Rights Reserved 2024",
-    "design": "Designed by Robert Smith",
+    "design": "Designed by",
+    "designer": "Robert Smith",
     "logo": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714055816/drone_landing/logo/zl3kehgakmqi9icgnb6o.png",
       "alt": "logo image"
@@ -232,8 +240,8 @@
   "contact": {
     "email": "example@example.com"
   },
-  "bolg": {
-    "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713971967/new%20icons/goxgkznab54zmwyrthho.png",
+  "blog": {
+    "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111452/drone_landing/blog/blog-icon.png",
     "title": "Blog",
     "text": "Visit our blog!",
     "url": "https://www.blogger.com/about/?hl=es"

@@ -1,91 +1,58 @@
 import React from "react";
 import data from "../data.json";
-import Layout from "../components/ui/Layout";
 
 function Footer() {
-  const handleClick = (e) => {
-    e.target.style.filter = "brightness(150%)";
-    setTimeout(() => {
-      e.target.style.filter = "none";
-    }, 50);
-  };
-
   return (
-    <footer className="py-8 px-20 bg-[#20202D] overflow-hidden">
-      <Layout>
-        <div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center justify-between text-[#F6F6F6]">
-          <div>
-            <p className="text-xs">{data["section-footer"].copy}</p>
-          </div>
-          <div>
-            <a href="#">
+    <footer className="flex w-full py-4 bg-black overflow-hidden">
+      <div className="flex flex-col items-center justify-center text-white mx-auto">
+        <div className="w-screen flex items-center justify-around gap-12 p-4">
+          <a href="/">
+            <div className="flex items-center gap-2">
               <img
-                src={data["section-footer"].logo.url}
-                alt={data["section-footer"].logo.alt}
-                className="sm:hidden break:block"
+                src={data.logo.url}
+                alt={data.logo.alt}
+                className="w-12 sm:w-20"
               />
-              <img
-                src={data["logo-white"].url}
-                alt={data["logo-white"].alt}
-                className="hidden sm:block break:hidden w-10"
-              />
-            </a>
-          </div>
-          <div className="flex items-center gap-2">
-            <img
-              width={32}
-              src={data["section-footer"]["twitter-icon"]}
-              alt={data["section-footer"]["social-media-alt"]}
-              className="cursor-pointer"
-              onClick={handleClick}
-            />
-            <img
-              width={32}
-              src={data["section-footer"]["instagram-icon"]}
-              alt={data["section-footer"]["social-media-alt"]}
-              className="cursor-pointer"
-              onClick={handleClick}
-            />
-            <img
-              width={32}
-              src={data["section-footer"]["facebook-icon"]}
-              alt={data["section-footer"]["social-media-alt"]}
-              className="cursor-pointer"
-              onClick={handleClick}
-            />
-            <img
-              width={32}
-              src={data["section-footer"]["linkedin-icon"]}
-              alt={data["section-footer"]["social-media-alt"]}
-              className="cursor-pointer"
-              onClick={handleClick}
-            />
-          </div>
-          <div className="flex items-center">
-            <a href={data.bolg.url} target="_blank" className="ml-auto">
+              <p className="font-bold md:text-2xl hover:text-green-custom">
+                {data["section-footer"].trademark}
+              </p>
+            </div>
+          </a>
+          <p className="hidden md:flex italic text-xl md:text-2xl tracking-widest">
+            "{data["section-footer"].slogan}"
+          </p>
+          <div className="flex items-center text-white">
+            <a href={data.blog.url} Target="_blank" className="ml-auto">
               <div
-                title={data.bolg.text}
-                className="text-center hover:text-[#dddddd] cursor-pointer flex items-center gap-1 justify-center w-full"
+                title={data.blog.text}
+                className="text-center hover:text-green-custom text-white cursor-pointer flex items-center gap-2 justify-center w-full"
               >
                 <img
-                  width={32}
-                  height={32}
-                  src={data.bolg.icon}
-                  alt={`${data.bolg.title} icon`}
+                  src={data.blog.icon}
+                  alt={`${data.blog.title} icon`}
+                  style={{ filter: "invert(1)" }}
+                  className="w-8 sm:w-12 "
                 />
                 <div className="flex flex-col text-left justify-center">
                   <p className="text-md md:text-lg font-bold">
-                    {data.bolg.title}
+                    {data.blog.title}
                   </p>
-                  <h6 className="hidden lg:flex text-[12px] -mt-1 text-gray_default">
-                    {data.bolg.text}
+                  <h6 className="hidden sm:flex text-[12px] -mt-1 text-gray_default">
+                    {data.blog.text}
                   </h6>
                 </div>
               </div>
             </a>
           </div>
         </div>
-      </Layout>
+        <div className="flex w-full items-center justify-around px-4 gap-6 text-xs">
+          <p className="">{data["section-footer"].copy}</p>
+          <div className="flex items-center gap-1">
+            <p className="">{data["section-footer"].design}</p>
+            <p className="font-semibold">{data["section-footer"].designer}</p>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 }
