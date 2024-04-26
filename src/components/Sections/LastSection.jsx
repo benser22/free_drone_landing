@@ -131,7 +131,7 @@ function LastSection() {
                     right: 0,
                     margin: "auto",
                   }}
-                  className="absolute pt-2 text-red-400 text-sm"
+                  className="absolute pt-0 sm:pt-1 md:pt-2 text-red-400 text-sm"
                 >
                   {data["section-contact"].error}
                 </p>
