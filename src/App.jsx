@@ -7,8 +7,6 @@ import Overview from "./components/Sections/Overview";
 import Project from "./components/Sections/Project";
 import Future from "./components/Sections/Future";
 import LastSection from "./components/Sections/LastSection";
-import Contact from "./components/Sections/Contact";
-
 import Footer from "./Footer/Footer";
 
 function App() {
@@ -25,10 +23,6 @@ function App() {
         <LastSection />
       </Layout>
       <Footer />
-      {/* <Hero />
-      <Products />
-      <Property />
-    */}
     </main>
   );
 }
