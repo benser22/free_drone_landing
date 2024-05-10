@@ -1,8 +1,8 @@
-import useNav from "../../hooks/useNav";
-import MenuMobile from "./MenuMobile";
-import data from "../../data.json";
-import { BsJustify, BsXLg } from "react-icons/bs";
-import { Link } from "react-scroll";
+import useNav from '../../hooks/useNav';
+import MenuMobile from './MenuMobile';
+import data from '../../data.json';
+import { BsJustify, BsXLg } from 'react-icons/bs';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const { isOpen, handleIsOpen } = useNav();
@@ -14,13 +14,13 @@ const Navbar = () => {
       <div className="flex items-center justify-between w-full">
         <a href="/">
           <img
-            src={data.logo.url}
+            src={data['logo-white'].url}
             alt={data.logo.alt}
-            className="w-[48px] cursor-pointer mr-2"
+            className="w-2/3 cursor-pointer mr-2"
           ></img>
         </a>
         <div className="hidden sm:flex items-center justify-between space-x-6 sm:space-x-3 md:space-x-6">
-          {data["section-header"].navbar.map((item, index) => (
+          {data['section-header'].navbar.map((item, index) => (
             <Link
               to={item.href}
               spy={false}
@@ -38,6 +38,21 @@ const Navbar = () => {
               </p>
             </Link>
           ))}
+          <a
+            href={data['section-header'].blog.href}
+            key={data['section-header'].blog.id}
+            target="_blank"
+            className=" cursor-pointer"
+          >
+            <p className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
+              {data['section-header'].blog.text}
+            </p>
+          </a>
+          <a href={`mailto:${data.contact.email}`} className=" cursor-pointer">
+            <p className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
+              {data['section-header'].contact.text}
+            </p>
+          </a>
         </div>
       </div>
       <button

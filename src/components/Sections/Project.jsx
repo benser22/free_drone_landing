@@ -1,11 +1,11 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import data from "../../data.json";
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import data from '../../data.json';
 
 function Project() {
-  const { title, paragraph, products } = data["section-project"];
+  const { title, paragraph, products } = data['section-project'];
 
   const settings = {
     dots: true,
@@ -46,7 +46,7 @@ function Project() {
               <div key={index} className="container flex pb-8">
                 <div
                   className="flex justify-center items-center -mb-12 sm:mb-0"
-                  style={{ height: "20rem" }}
+                  style={{ height: '20rem' }}
                 >
                   <img
                     src={product.imageUrl}
@@ -59,11 +59,11 @@ function Project() {
                   className="flex flex-col text-left px-6 bg-white"
                 >
                   <div className="flex">
-                    <p className="text-[12px] mt-4 font-semibold">
+                    {/* <p className="text-[12px] mt-4 font-semibold">
                       {product.title}
-                    </p>
+                    </p> */}
                   </div>
-                  <p className="mt-2 font-semibold text-[24px]">
+                  <p className="mt-2 font-semibold text-[20px]">
                     {product.subtitle}
                   </p>
                   <p className="mt-4 opacity-[65%] text-[12px] ">

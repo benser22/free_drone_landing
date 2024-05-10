@@ -23,47 +23,47 @@
         "alt": "icon why"
       },
       {
-        "id": 4,
-        "text": "Overview",
-        "href": "overview",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059956/drone_landing/mobile-icons/why-us.png",
-        "alt": "icon overview"
-      },
-      {
-        "id": 5,
-        "text": "Projects",
+        "id": 6,
+        "text": "Project",
         "href": "project",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114846/drone_landing/mobile-icons/projects.png",
         "alt": "icon project"
       },
       {
-        "id": 6,
+        "id": 4,
         "text": "Future",
         "href": "future",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/future.png",
         "alt": "icon future"
       },
       {
-        "id": 7,
+        "id": 5,
         "text": "Accessories",
         "href": "accessories",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114243/drone_landing/mobile-icons/accesories-icon.png",
         "alt": "icon accessories"
-      },
-      {
-        "id": 8,
-        "text": "Contact Us",
-        "href": "contact",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/contac-us.png",
-        "alt": "icon contact"
       }
     ],
+    "contact": {
+      "id": 7,
+      "text": "Contact Us",
+      "href": "contact",
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/contac-us.png",
+      "alt": "icon contact"
+    },
+    "blog": {
+      "id": 8,
+      "text": "Blog",
+      "href": "https://aeroautonomyinnovations.blog.sistemasvirtuales.net/",
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111452/drone_landing/blog/blog-icon.png",
+      "alt": "icon blog"
+    },
     "button": {}
   },
   "section-hero": {
-    "title": "Document your surroundings from above",
-    "subtitle": "لوريم ايبسوم دولار سيت أميت, كونسيكتيتور أدايبا يسكينج أليايت, سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا. يوت انيم أد مينيم فينايم, كيواس نوستريد",
-    "stamp": "إشتري",
+    "title": "Welcome to Aero Autonomy Innovations: Leaders in Innovation for Drone Autonomy",
+    "subtitle": "At AeroAutonomyInnovations, we are passionately dedicated to the design and development of cutting-edge technological systems that enhance drone autonomy. With a focus on excellence and innovation, we are committed to creating solutions that transform industries and safeguard the environment.",
+    "stamp": "Unlock the Skies",
     "bg": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714064507/drone_landing/backgrounds/bg-hero.png",
       "alt": "bg hero image"
@@ -74,40 +74,27 @@
       "id": 1,
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714075602/drone_landing/products/card1.png",
       "alt": "card1 image",
-      "epigraph": "DJI Motion Controller [1]",
-      "title": "Get a Feel for Flying",
-      "paragraph": "With the DJI Motion Controller, intuitive flight is in your hands. [1] Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly.",
-      "line-p": "*Click to Learn More About the New DJI RC Motion 2",
+      "epigraph": "Mission",
+      "title": "Mission",
+      "paragraph": "Our mission is to promote the evolution of the aeronautical industry through the development of advanced technological platforms that enhance the autonomy of drones. We are committed to creating agile and optimal solutions that contribute to the detection and efficient management of forest fires, using Artificial Intelligence and Big Data as key tools.",
       "button": "Learn More"
     },
     {
       "id": 2,
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714071478/drone_landing/products/card2.png",
       "alt": "card2 image",
-      "epigraph": "DJI Motion Controller [1]",
-      "title": "Get a Feel for Flying",
-      "paragraph": "With the DJI Motion Controller, intuitive flight is in your hands. [1] Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly.",
-      "line-p": "*Click to Learn More About the New DJI RC Motion 2",
+      "epigraph": "Vision",
+      "title": "Vision",
+      "paragraph": "We imagine ourselves as undisputed leaders in the field of drone autonomy, where our innovations not only optimize operations, but also protect lives and ecosystems. We offer excellence, quality and aspire to be globally recognized for our advanced technology and our positive impact on society and the environment. We are AeroAutonomy, unlocking the sky",
       "button": "Learn More"
     },
     {
       "id": 3,
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714071478/drone_landing/products/card3.png",
       "alt": "card3 image",
-      "epigraph": "DJI Motion Controller [1]",
-      "title": "Get a Feel for Flying",
-      "paragraph": "With the DJI Motion Controller, intuitive flight is in your hands. [1] Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly.",
-      "line-p": "*Click to Learn More About the New DJI RC Motion 2",
-      "button": "Learn More"
-    },
-    {
-      "id": 4,
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714072139/drone_landing/products/card4.png",
-      "alt": "card4 image",
-      "epigraph": "DJI Motion Controller [1]",
-      "title": "Get a Feel for Flying",
-      "paragraph": "With the DJI Motion Controller, intuitive flight is in your hands. [1] Squeeze the trigger and bolt forward or turn a corner with the swivel of your wrist. The controls are easy to use and provide a totally unique way to fly.",
-      "line-p": "*Click to Learn More About the New DJI RC Motion 2",
+      "epigraph": "That makes us different",
+      "title": "That makes us different",
+      "paragraph": "What sets us apart is our relentless dedication to excellence and innovation. Our customer-centric approach drives us to develop customized solutions that address the specific needs of each project. Furthermore, our ability to integrate advanced technologies such as Artificial Intelligence and Big Data allows us to offer cutting-edge solutions that make a difference.",
       "button": "Learn More"
     }
   ],
@@ -137,15 +124,15 @@
     }
   },
   "section-project": {
-    "title": "Be part of us",
-    "paragraph": "Discover our premium drone collection, tailored to enhance your aerial photography and videography. From beginner-friendly models to professional-grade quadcopters, find everything you need to capture breathtaking shots. Plus, discover a variety of drone components to customize and optimize performance.",
+    "title": "Aero Autonomy Innovations",
+    "paragraph": "If you share our passion for innovation and positive impact, we invite you to join us on our journey towards a safer, more sustainable future. Together, we can make the impossible possible and transform the way we confront the most pressing environmental challenges of our time.",
     "products": [
       {
         "imageUrl": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714089377/drone_landing/project/ui3ztqn8ow73y7so6ux1.webp",
         "alt": "Drone Product 1",
         "title": "Beginner Drones",
-        "subtitle": "Easy to Fly",
-        "description": "Our beginner drones are tailored for new pilots eager to explore aerial photography. With user-friendly controls and built-in stability, these drones make capturing stunning footage a breeze, allowing beginners to dive into the world of aerial imaging with ease.",
+        "subtitle": "Commitment to Environmental Sustainability",
+        "description": "AeroAutonomyInnovations stands out for its commitment to environmental sustainability. By providing innovative tools for the detection and management of forest fires, the company actively contributes to the protection of vulnerable ecosystems and the conservation of biodiversity. Its technology helps minimize the environmental impact of forest fires by allowing a faster and more effective response by the competent authorities.",
         "button": "READ MORE",
         "button-back": "READ LESS"
       },
@@ -153,8 +140,8 @@
         "imageUrl": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714088685/drone_landing/project/2.webp",
         "alt": "Drone Product 2",
         "title": "Professional Quadcopters",
-        "subtitle": "Advanced Features",
-        "description": "Our professional quadcopters are equipped with cutting-edge technology and advanced features, delivering unparalleled performance and image quality. Take your aerial photography and videography to the next level with our top-of-the-line drones.",
+        "subtitle": "Advanced Technological Innovation",
+        "description": "AeroAutonomyInnovations is distinguished by its commitment to advanced technological innovation. Its team of data science and engineering experts is constantly working to develop cutting-edge solutions that make the most of artificial intelligence and big data analytics. This capacity for innovation allows the company to offer autonomous drone systems that are agile, precise and highly efficient in detecting and signaling forest fires.",
         "button": "READ MORE",
         "button-back": "READ LESS"
       },
@@ -162,8 +149,8 @@
         "imageUrl": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714088685/drone_landing/project/3.webp",
         "alt": "Drone Product 3",
         "title": "Mini Drones",
-        "subtitle": "Compact and Agile",
-        "description": "Our mini drones are perfect for indoor flights or capturing dynamic shots in tight spaces. Despite their small size, these drones pack a punch with their agility and maneuverability, offering a unique perspective for your aerial imaging projects.",
+        "subtitle": "Focus on Drone Autonomy",
+        "description": "AeroAutonomyInnovations' specialization in the design and development of technological systems for drone autonomy is a distinctive feature of the company. Their level of excellence and deep knowledge in this field allows them to offer customized solutions that address specific needs of its clients. Do it with professionalism, from detecting forest fires to monitoring large areas of forest efficiently and reliably.",
         "button": "READ MORE",
         "button-back": "READ LESS"
       },
@@ -171,8 +158,8 @@
         "imageUrl": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714088685/drone_landing/project/4.webp",
         "alt": "Drone Product 4",
         "title": "Foldable Drones",
-        "subtitle": "Portable and Versatile",
-        "description": "Our foldable drones are designed for adventurers on the go. With their compact and foldable design, you can easily carry them anywhere and unleash their aerial capabilities whenever inspiration strikes. Explore new horizons with our versatile foldable drones.",
+        "subtitle": "Trust and Reliability",
+        "description": "Trust and reliability are core values ​​of AeroAutonomyInnovations. We are proud to offer high-quality technology solutions that exceed our customers' expectations. Their team of highly trained professionals ensures that each system delivered meets the highest standards of performance and safety. This dedication to excellence has earned the trust of a wide range of customers, including government agencies, environmental conservation organizations and private companies.",
         "button": "READ MORE",
         "button-back": "READ LESS"
       }
@@ -180,9 +167,9 @@
   },
   "section-future": {
     "title": "A Breakthrough in FPV Visuals",
-    "subtitle": "Equipped with a 1/1.7-inch CMOS sensor, DJI Avata supports 4K ultra-wide-angle recording with an f/2.8 aperture.",
+    "subtitle": "At AeroAutonomyInnovations, we are driving drone autonomy to new horizons. Join us and be part of the technological revolution that is changing the world for the better.",
     "image": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714090986/drone_landing/future/image.png",
+      "url": "explore.avif",
       "alt": "battery image"
     },
     "column": [
@@ -198,7 +185,8 @@
     ]
   },
   "section-last": {
-    "stamp": "إشتري",
+    "title": "Accessories",
+    "subtitle": "Enhance your drone's capabilities with our range of accessories, including extra batteries for extended flight time, propeller guards for added safety, and high-resolution cameras for stunning aerial photography and videography.",
     "image": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714102099/drone_landing/last/nazqdbycj20mc316rz9t.png",
       "alt": "lastSection image"
@@ -208,7 +196,7 @@
       "alt": "lastSection image2"
     },
     "logo": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111480/drone_landing/last/logo-transparent.png",
+      "url": "LogoNegro.svg",
       "alt": "logo image"
     }
   },
@@ -219,7 +207,7 @@
     "error": "Please enter a valid email address."
   },
   "section-footer": {
-    "trademark": "FREE DRONE",
+    "trademark": "AeroAutonomy",
     "slogan": "Unlock the Skies",
     "copy": "All Rights Reserved 2024",
     "design": "Designed by",
@@ -230,20 +218,24 @@
     }
   },
   "logo": {
-    "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714055816/drone_landing/logo/zl3kehgakmqi9icgnb6o.png",
+    "url": "LogoBlanco.svg",
     "alt": "logo image"
   },
   "logo-black": {
-    "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714058469/drone_landing/logo/od65ykasgbtc4ezmimpw.png",
+    "url": "LogoNegro.svg",
+    "alt": "logo image"
+  },
+  "logo-white": {
+    "url": "LogoBlancoTexto.svg",
     "alt": "logo image"
   },
   "contact": {
-    "email": "example@example.com"
+    "email": "AeroAutonomyInnovations@gmail.com"
   },
   "blog": {
     "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111452/drone_landing/blog/blog-icon.png",
     "title": "Blog",
     "text": "Visit our blog!",
-    "url": "https://www.blogger.com/about/?hl=es"
+    "url": "https://aeroautonomyinnovations.blog.sistemasvirtuales.net/"
   }
 }

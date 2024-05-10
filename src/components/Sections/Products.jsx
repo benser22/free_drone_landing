@@ -1,11 +1,11 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import data from "../../data.json";
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import data from '../../data.json';
 
 function Products() {
-  const cards = data["section-products"];
+  const cards = data['section-products'];
   const settings = {
     dots: false,
     infinite: true,
@@ -41,8 +41,8 @@ function Products() {
       <div
         className="px-4 pb-16"
         style={{
-          backgroundSize: "cover",
-          width: "100%",
+          backgroundSize: 'cover',
+          width: '100%',
         }}
       >
         <div className="flex flex-col text-center w-[98%]">
@@ -51,7 +51,7 @@ function Products() {
               <div key={index} className="container flex">
                 <div
                   className="flex justify-center items-center"
-                  style={{ height: "30rem" }}
+                  style={{ height: '30rem' }}
                 >
                   <img
                     src={card.url}
@@ -63,11 +63,11 @@ function Products() {
                   key={card.id}
                   className="flex flex-col text-left px-6 bg-white"
                 >
-                  <div className="flex gap-4">
+                  {/* <div className="flex gap-4">
                     <p className="text-[12px] mt-4 font-semibold">
                       {card.epigraph}"
                     </p>
-                  </div>
+                  </div> */}
                   <p className="mt-2 font-semibold text-[24px] ">
                     {card.title}
                   </p>
@@ -75,7 +75,7 @@ function Products() {
                     {card.paragraph}
                   </p>
                   <p className="mt-4 opacity-[65%] text-[12px] ">
-                    {card["line-p"]}
+                    {card['line-p']}
                   </p>
                   <button className="mt-4 border-black border w-max py-2 px-6 rounded-full text-[14px]">
                     {card.button}
