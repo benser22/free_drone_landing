@@ -10,14 +10,14 @@ function Hero() {
         <h3 className="text-xs sm:text-md lg:text-xl w-full sm:w-4/5 px-8 mx-auto text-center mt-2">
           {data['section-hero'].subtitle}
         </h3>
-        <div
+        {/* <div
           className="h-20 w-20 sm:h-32 sm:w-32 text-xs md:text-[16px] leading-normal rounded-full bg-black flex items-center justify-center font-[500]"
           style={{ boxShadow: '0px 0px 32px -10px rgba(0,0,0,0.75)' }}
         >
           <h3 className="p-4 py-[1.3rem] text-center text-white italic font-semibold">
             "{data['section-hero'].stamp}"
           </h3>
-        </div>
+        </div> */}
         <img
           src={data['section-hero'].bg.url}
           alt={data['section-hero'].bg.alt}

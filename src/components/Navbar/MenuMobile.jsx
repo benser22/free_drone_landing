@@ -55,10 +55,9 @@ const MenuMobile = ({ isOpen, onClick }) => {
             className="flex items-center gap-4 hover:text-gray-custom cursor-pointer"
           >
             <img
-              src={data.blog.icon}
-              alt={data.blog.text}
+              src={data['section-header'].blog.icon}
+              alt={data['section-header'].blog.alt}
               className="w-[26px] h-[26px]"
-              style={{ filter: 'invert(1)' }}
             />
             <p className="font-bold"> {data['section-header'].blog.text}</p>
           </a>
