@@ -1,4 +1,3 @@
-import React from 'react';
 import data from '../data.json';
 
 function Footer() {
@@ -8,17 +7,21 @@ function Footer() {
         <div className="w-screen flex items-center justify-around gap-12 p-4">
           <a href="/">
             <div className="flex items-center gap-2">
-              <img src={data.logo.url} alt={data.logo.alt} className="w-8" />
+              <img
+                src={data['logo-white'].url}
+                alt={data.logo.alt}
+                className="w-[24px] h-[24px] sm:w-[32px] sm:h-[32px] cursor-pointer mr-2"
+              />
               <p className="font-bold md:text-xl hover:text-green-custom">
                 {data['section-footer'].trademark}
               </p>
             </div>
           </a>
           <p className="hidden md:flex italic text-xl md:text-2xl tracking-widest">
-            "{data['section-footer'].slogan}"
+            {data['section-footer'].slogan}
           </p>
           <div className="flex items-center text-white">
-            <a href={data.blog.url} Target="_blank" className="ml-auto">
+            <a href={data.blog.url} target="_blank" className="ml-auto">
               <div
                 title={data.blog.text}
                 className="text-center hover:text-green-custom text-white cursor-pointer flex items-center gap-2 justify-center w-full"

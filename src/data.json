@@ -54,15 +54,15 @@
     "blog": {
       "id": 8,
       "text": "Blog",
-      "href": "https://aeroautonomyinnovations.blog.sistemasvirtuales.net/",
+      "href": "https://techdronfly.blog.sistemasvirtuales.net",
       "icon": "escribir.png",
       "alt": "icon blog"
     },
     "button": {}
   },
   "section-hero": {
-    "title": "Welcome to Aero Autonomy Innovations: Leaders in Innovation for Drone Autonomy",
-    "subtitle": "At AeroAutonomyInnovations, we are passionately dedicated to the design and development of cutting-edge technological systems that enhance drone autonomy. With a focus on excellence and innovation, we are committed to creating solutions that transform industries and safeguard the environment.",
+    "title": "Welcome to Techdronfly: Leaders in Innovation for Drone Autonomy",
+    "subtitle": "At Techdronfly, we are passionately dedicated to the design and development of cutting-edge technological systems that enhance drone autonomy. With a focus on excellence and innovation, we are committed to creating solutions that transform industries and safeguard the environment.",
     "stamp": "Unlock the Skies",
     "bg": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714064507/drone_landing/backgrounds/bg-hero.png",
@@ -132,7 +132,7 @@
         "alt": "Drone Product 1",
         "title": "Beginner Drones",
         "subtitle": "Commitment to Environmental Sustainability",
-        "description": "AeroAutonomyInnovations stands out for its commitment to environmental sustainability. By providing innovative tools for the detection and management of forest fires, the company actively contributes to the protection of vulnerable ecosystems and the conservation of biodiversity. Its technology helps minimize the environmental impact of forest fires by allowing a faster and more effective response by the competent authorities.",
+        "description": "Techdronfly stands out for its commitment to environmental sustainability. By providing innovative tools for the detection and management of forest fires, the company actively contributes to the protection of vulnerable ecosystems and the conservation of biodiversity. Its technology helps minimize the environmental impact of forest fires by allowing a faster and more effective response by the competent authorities.",
         "button": "READ MORE",
         "button-back": "READ LESS"
       },
@@ -141,7 +141,7 @@
         "alt": "Drone Product 2",
         "title": "Professional Quadcopters",
         "subtitle": "Advanced Technological Innovation",
-        "description": "AeroAutonomyInnovations is distinguished by its commitment to advanced technological innovation. Its team of data science and engineering experts is constantly working to develop cutting-edge solutions that make the most of artificial intelligence and big data analytics. This capacity for innovation allows the company to offer autonomous drone systems that are agile, precise and highly efficient in detecting and signaling forest fires.",
+        "description": "Techdronfly is distinguished by its commitment to advanced technological innovation. Its team of data science and engineering experts is constantly working to develop cutting-edge solutions that make the most of artificial intelligence and big data analytics. This capacity for innovation allows the company to offer autonomous drone systems that are agile, precise and highly efficient in detecting and signaling forest fires.",
         "button": "READ MORE",
         "button-back": "READ LESS"
       },
@@ -150,7 +150,7 @@
         "alt": "Drone Product 3",
         "title": "Mini Drones",
         "subtitle": "Focus on Drone Autonomy",
-        "description": "AeroAutonomyInnovations' specialization in the design and development of technological systems for drone autonomy is a distinctive feature of the company. Their level of excellence and deep knowledge in this field allows them to offer customized solutions that address specific needs of its clients. Do it with professionalism, from detecting forest fires to monitoring large areas of forest efficiently and reliably.",
+        "description": "Techdronfly' specialization in the design and development of technological systems for drone autonomy is a distinctive feature of the company. Their level of excellence and deep knowledge in this field allows them to offer customized solutions that address specific needs of its clients. Do it with professionalism, from detecting forest fires to monitoring large areas of forest efficiently and reliably.",
         "button": "READ MORE",
         "button-back": "READ LESS"
       },
@@ -159,7 +159,7 @@
         "alt": "Drone Product 4",
         "title": "Foldable Drones",
         "subtitle": "Trust and Reliability",
-        "description": "Trust and reliability are core values ​​of AeroAutonomyInnovations. We are proud to offer high-quality technology solutions that exceed our customers' expectations. Their team of highly trained professionals ensures that each system delivered meets the highest standards of performance and safety. This dedication to excellence has earned the trust of a wide range of customers, including government agencies, environmental conservation organizations and private companies.",
+        "description": "Trust and reliability are core values ​​of Techdronfly. We are proud to offer high-quality technology solutions that exceed our customers' expectations. Their team of highly trained professionals ensures that each system delivered meets the highest standards of performance and safety. This dedication to excellence has earned the trust of a wide range of customers, including government agencies, environmental conservation organizations and private companies.",
         "button": "READ MORE",
         "button-back": "READ LESS"
       }
@@ -167,7 +167,7 @@
   },
   "section-future": {
     "title": "A Breakthrough in FPV Visuals",
-    "subtitle": "At AeroAutonomyInnovations, we are driving drone autonomy to new horizons. Join us and be part of the technological revolution that is changing the world for the better.",
+    "subtitle": "At Techdronfly, we are driving drone autonomy to new horizons. Join us and be part of the technological revolution that is changing the world for the better.",
     "image": {
       "url": "explore.avif",
       "alt": "battery image"
@@ -207,35 +207,38 @@
     "error": "Please enter a valid email address."
   },
   "section-footer": {
-    "trademark": "AeroAutonomy",
+    "trademark": "Techdronfly",
     "slogan": "Unlock the Skies",
     "copy": "All Rights Reserved 2024",
     "design": "Designed by",
     "designer": "Robert Smith",
     "logo": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714055816/drone_landing/logo/zl3kehgakmqi9icgnb6o.png",
+      "url": "LogoBlanco.svg",
       "alt": "logo image"
     }
   },
   "logo": {
     "url": "LogoBlanco.svg",
-    "alt": "logo image"
+    "alt": "logo image",
+    "text": "Techdronfly"
   },
   "logo-black": {
     "url": "LogoNegro.svg",
-    "alt": "logo image"
+    "alt": "logo image",
+    "text": "Techdronfly"
   },
   "logo-white": {
-    "url": "LogoBlancoTexto.svg",
-    "alt": "logo image"
+    "url": "LogoBlanco.svg",
+    "alt": "logo image",
+    "text": "Techdronfly"
   },
   "contact": {
-    "email": "AeroAutonomyInnovations@gmail.com"
+    "email": "Techdronfly@gmail.com"
   },
   "blog": {
     "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111452/drone_landing/blog/blog-icon.png",
     "title": "Blog",
     "text": "Visit our blog!",
-    "url": "https://aeroautonomyinnovations.blog.sistemasvirtuales.net/"
+    "url": "https://techdronfly.blog.sistemasvirtuales.net"
   }
 }

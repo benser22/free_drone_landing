@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll';
 import data from '../../data.json';
+import PropTypes from 'prop-types';
 
 const MenuMobile = ({ isOpen, onClick }) => {
   return (
@@ -80,6 +81,11 @@ const MenuMobile = ({ isOpen, onClick }) => {
       </ul>
     </div>
   );
+};
+
+MenuMobile.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default MenuMobile;
