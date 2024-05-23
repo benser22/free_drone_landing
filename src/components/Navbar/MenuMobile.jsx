@@ -12,20 +12,17 @@ const MenuMobile = ({ isOpen, onClick }) => {
       style={{ background: 'rgba(0,0,0,0.3)' }}
     >
       <ul
-        className={`fixed left-0 top-0 px-4 py-5 h-screen w-[60vw] flex flex-col gap-4 
+        className={`fixed left-0 top-0 px-4 py-5 h-screen min-w-[150px] w-[60vw] flex flex-col gap-4 
         items-start text-white bg-black shadow-md shadow-white`}
       >
         <div className="flex">
           <a href="/">
             <img
-              src={data['logo-black'].url}
-              alt={data['logo-black'].alt}
-              className="h-[36px] cursor-pointer mx-auto mt-4"
-              style={{ filter: 'invert(1)' }}
+              src={data.logo.url}
+              alt={data.logo.alt}
+              width={96}
+              className="cursor-pointer mx-auto mt-4 hover:animate-pulse"
             />
-            <p className="font-bold active:text-green-custom text-center">
-              {data['section-footer'].trademark}
-            </p>
             <hr className="mt-6 w-[50vw]"></hr>
           </a>
         </div>
@@ -34,7 +31,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
             <Link
               to={item.href}
               key={index}
-              className="flex items-center gap-4 hover:text-gray-custom cursor-pointer"
+              className="flex items-center gap-4 active:text-green-custom cursor-pointer"
               smooth={true}
               duration={700}
               spy={false}
@@ -53,7 +50,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
             href={data['section-header'].blog.href}
             key={data['section-header'].blog.id}
             target="_blank"
-            className="flex items-center gap-4 hover:text-gray-custom cursor-pointer"
+            className="flex items-center gap-4 active:text-green-custom cursor-pointer"
           >
             <img
               src={data['section-header'].blog.icon}
@@ -64,7 +61,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
           </a>
 
           <a
-            href={`mailto:${data.contact.email}`}
+            href={`mailto:${data.contact.email}?subject=Contact`}
             className="flex items-center gap-4 cursor-pointer"
           >
             <img
@@ -73,7 +70,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
               className="w-[26px] h-[26px]"
               style={{ filter: 'invert(1)' }}
             />
-            <p className="text-md font-bold hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
+            <p className="text-md font-bold active:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
               {data['section-header'].contact.text}
             </p>
           </a>

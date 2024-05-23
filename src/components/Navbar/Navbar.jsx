@@ -17,11 +17,15 @@ const Navbar = () => {
             <img
               src={data['logo-white'].url}
               alt={data.logo.alt}
-              className="w-[24px] h-[24px] md:w-[32px] md:h-[32px] cursor-pointer mr-2"
+              className="w-[200px] md:w-[200px] sm:hidden md:block cursor-pointer mr-2 hover:animate-rotate-x hover:animate-duration-[1500ms]"
             />
-            <p className="font-bold md:text-xl hover:text-green-custom">
-              {data['section-footer'].trademark}
-            </p>
+            <img
+              width={64}
+              height={64}
+              src={data.logo.url}
+              alt={data.logo.alt}
+              className="hidden sm:block md:hidden cursor-pointer mr-2 hover:animate-rotate-y hover:animate-duration-[2000ms]"
+            />
           </div>
         </a>
         <div className="hidden sm:flex items-center justify-between space-x-6 sm:space-x-3 md:space-x-6">
@@ -36,7 +40,7 @@ const Navbar = () => {
               className=" cursor-pointer"
             >
               <p
-                className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max"
+                className="text-md font-[600] hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max"
                 key={item.id}
               >
                 {item.text}
@@ -49,7 +53,7 @@ const Navbar = () => {
             target="_blank"
             className=" cursor-pointer"
           >
-            <p className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
+            <p className="text-md font-[600] hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
               {data['section-header'].blog.text}
             </p>
           </a>
@@ -57,7 +61,7 @@ const Navbar = () => {
             href={`mailto:${data.contact.email}?subject=Contact`}
             className=" cursor-pointer"
           >
-            <p className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
+            <p className="text-md text-md font-[600] hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
               {data['section-header'].contact.text}
             </p>
           </a>

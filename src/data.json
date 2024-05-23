@@ -218,22 +218,19 @@
     }
   },
   "logo": {
-    "url": "LogoBlanco.svg",
-    "alt": "logo image",
-    "text": "Techdronfly"
+    "url": "logos/3.png",
+    "alt": "logo image"
   },
   "logo-black": {
-    "url": "LogoNegro.svg",
-    "alt": "logo image",
-    "text": "Techdronfly"
+    "url": "logos/2.png",
+    "alt": "logo image"
   },
   "logo-white": {
-    "url": "LogoBlanco.svg",
-    "alt": "logo image",
-    "text": "Techdronfly"
+    "url": "logos/4.png",
+    "alt": "logo image"
   },
   "contact": {
-    "email": "Techdronfly@gmail.com"
+    "email": "tech-dron-fly@gmail.com"
   },
   "blog": {
     "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111452/drone_landing/blog/blog-icon.png",

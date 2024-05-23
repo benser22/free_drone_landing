@@ -27,7 +27,8 @@ function LastSection() {
 
   const handleButtonClick = () => {
     if (isValidEmail && email) {
-      window.location.href = `mailto:${email}`;
+      window.location.href = `mailto:${data.contact.email}?subject=Contact&body=Email contact: ${email}`;
+      setEmail('');
     } else {
       alert(emailError || data['section-contact'].error);
     }
@@ -37,18 +38,6 @@ function LastSection() {
     <>
       <section id="accessories">
         <div className="flex-col items-start justify-center max-w-[100vw] pt-6 bg-white">
-          {/* <div className="w-1/2 ml-4 z-10"> */}
-          {/* <div
-              className="mx-auto h-[10vw] mb-12 sm:mb-0 z-10 w-[10vw] rounded-full bg-black flex items-center justify-center font-[500]"
-              style={{
-                boxShadow: '0px 0px 32px -10px rgba(0,0,0,0.75)',
-              }}
-            > */}
-          {/* <h3 className="p-4 py-[1.3rem] text-md text-center text-white italic font-semibold">
-                "{data['section-hero'].stamp}"
-              </h3> */}
-          {/* </div> */}
-          {/* </div> */}
           <h2 className="text-3xl pt-10 sm:px-20 lg:text-4xl font-bold text-center mb-6">
             {data['section-last'].title}
           </h2>
@@ -60,34 +49,12 @@ function LastSection() {
             alt={data['section-last'].image.alt}
             className="w-4/5 mx-auto"
           />
-          {/* <div
-            className="flex justify-center mt-32 pb-32 relative h-96"
-            style={{
-              width: '100%',
-              maxWidth: '100vw',
-            }}
-          >
-            <img
-              src={data['section-last'].logo.url}
-              alt={data['section-last'].logo.alt}
-              className="hidden sm:absolute inset-0 w-1/2  mt-20 mx-auto object-cover opacity-30"
-            />
-            <img
-              src={data['section-last'].image2.url}
-              alt={data['section-last'].image2.alt}
-              className="absolute w-[45%] sm:w-3/5 top-10 m-auto"
-              style={{
-                height: 'auto',
-                zIndex: 1,
-              }}
-            />
-          </div> */}
         </div>
       </section>
       <section id="contact">
         <div className="flex mt-6"></div>
         <div className="xl:px-[8vw] flex h-[200px] sm:h-[150px] text-xl sm:text-xl lg:text-base 2xl:text-xl max-w-[100vw] justify-between items-center md:gap-12 2xl:gap-44 bg-black px-4">
-          <div className="hidden md:flex items-center w-1/2 gap-4 mr-auto">
+          <div className="hidden md:flex items-center w-1/2 gap-4 mr-auto font-semibold">
             {data['section-header'].navbar.map((item, index) => (
               <Link
                 to={item.href}
@@ -121,7 +88,7 @@ function LastSection() {
                   placeholder={data['section-contact'].input_placeholder}
                 />
                 <button
-                  className="w-1/3 sm:w-2/5 mx-auto text-xs sm:text-md text-black font-bold bg-white py-2 px-5 border border-white rounded-md sm:rounded-l-none"
+                  className="min-w-max w-1/3 sm:w-2/5 mx-auto text-xs sm:text-md text-black font-bold bg-white py-2 px-5 border border-white rounded-md sm:rounded-l-none"
                   onClick={handleButtonClick}
                 >
                   {data['section-contact'].button}
