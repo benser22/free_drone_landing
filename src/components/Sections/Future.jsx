@@ -9,24 +9,14 @@ function Future() {
         <p className="sm:px-10 pb-10 text-lg sm:w-2/3 lg:w-[80%] lg:text-[1.4rem] text-white text-center mx-auto">
           {data['section-future'].subtitle}
         </p>
-        <div className="mx-auto flex flex-col sm:flex-row items-center gap-4 2xl:mx-auto sm:gap-8 xl:gap-0 justify-start">
-          <div className="">
+        <div className="mx-auto flex flex-col sm:flex-row items-center gap-4 2xl:mx-auto sm:gap-8 xl:gap-0 justify-start pt-12">
+          <div className="animate-bounce animate-duration-[5000ms] animate-alternate-reverse">
             <img
               src={data['section-future'].image.url}
               alt={data['section-explore'].bg.alt}
               className="mx-auto w-full"
             />
           </div>
-          {/* <div className="grid grid-cols-2 w-full sm:grid-cols-1 sm:w-[18vw] gap-4 sm:gap-4 md:gap-8 lg:gap-10 xl:gap-12 2xl:gap-14 text-green-custom">
-            {data['section-future'].column.map((item, index) => (
-              <div key={index} className="flex-col space-y-1">
-                <p className="text-xl md:text-2xl xl:text-3xl font-bold">
-                  {item.title}
-                </p>
-                <p className="">{item.subtitle}</p>
-              </div>
-            ))}
-          </div> */}
         </div>
       </div>
     </section>
